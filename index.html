@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css"/>
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+<div class="container">
+    <ul class="progressbar">
+        <li class="progressbar-list-item active" data-step="1">
+            <span>
+                Step 1
+            </span>
+        </li>
+        <li class="progressbar-list-item" data-step="2">
+          <span>
+            Step 2
+          </span>
+        </li>
+        <li class="progressbar-list-item" data-step="3">
+      <span>
+	      Step 3
+      </span>
+        </li>
+        <li class="progressbar-list-item" data-step="4">
+      <span>
+	      Step 4
+      </span>
+        </li>
+    </ul>
+
+    <div class="buttons">
+        <button type="button" id="prev-step">
+            Prev
+        </button>
+
+        <button type="button" id="next-step" class="btn btn-primary btn--no-animate">
+            Next
+        </button>
+    </div>
+
+    <div class="wizard-step-wrapper" data-wizard-wrapper-step="1">
+        <p style="text-transform: uppercase"><b>Step 1 content</b></p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, animi dolor, illum ipsum iste magni mollitia
+        nam natus nisi nobis optio perferendis provident qui quibusdam saepe sit tenetur veritatis. Explicabo.
+    </div>
+
+    <div class="wizard-step-wrapper d-none" data-wizard-wrapper-step="2">
+        <p style="text-transform: uppercase"><b>Step 2 content</b></p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, animi dolor, illum ipsum iste magni mollitia
+        nam natus nisi nobis optio perferendis provident qui quibusdam saepe sit tenetur veritatis. Explicabo.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, animi dolor, illum ipsum iste magni mollitia
+        nam natus nisi nobis optio perferendis provident qui quibusdam saepe sit tenetur veritatis. Explicabo.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, animi dolor, illum ipsum iste magni mollitia
+        nam natus nisi nobis optio perferendis provident qui quibusdam saepe sit tenetur veritatis. Explicabo.
+    </div>
+
+    <div class="wizard-step-wrapper d-none" data-wizard-wrapper-step="3">
+        <p style="text-transform: uppercase"><b>Step 3 content</b></p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, animi dolor, illum ipsum iste magni mollitia
+        nam natus nisi nobis optio perferendis provident qui quibusdam saepe sit tenetur veritatis. Explicabo.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, animi dolor, illum ipsum iste magni mollitia
+        nam natus nisi nobis optio perferendis provident qui quibusdam saepe sit tenetur veritatis. Explicabo.
+    </div>
+
+    <div class="wizard-step-wrapper d-none" data-wizard-wrapper-step="4">
+        <p style="text-transform: uppercase"><b>Step 4 content</b></p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, animi dolor, illum ipsum.
+    </div>
+</div>
+
+</body>
+</html>
